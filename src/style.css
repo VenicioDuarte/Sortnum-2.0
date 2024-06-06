@@ -1,0 +1,57 @@
+body {
+    background-image: url('./img/Fundo\ site.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Para centralizar a imagem de fundo */
+    margin: 0; /* Remove as margens padrão do corpo */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+.container {
+    text-align: center;
+}
+
+.sorteio {
+    max-width: 400px;
+    margin: 0 auto; /* Centraliza o sorteio horizontalmente */
+    padding: 20px; /* Adiciona um espaçamento interno ao sorteio */
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    width: -50%; /* 1/4 do tamanho original */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+}
+
